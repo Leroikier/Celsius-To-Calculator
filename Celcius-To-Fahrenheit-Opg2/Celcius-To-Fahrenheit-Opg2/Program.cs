@@ -10,12 +10,16 @@ namespace Celcius_To_Fahrenheit_Opg2
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Indtast Fahrenheit");
+            double celcius = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("This is a Celcius to Fahrenheit, Kelvin, Réaumur Calculator");
-            Console.WriteLine("");
-            Console.Write("Put in the degrees in Fahrenheit ");
-            fahrenheit = Convert.ToDouble(Console.ReadLine());
+            double fahrenheit = (celcius * 9 / 5) + 32;
+            double kelvin = celcius + 273.15;
+            double reaumur = celcius * 0.8;
+
+            Console.WriteLine("Celcius til Fahrenheit = {0}",fahrenheit);
+            Console.WriteLine("Celcius til Kelvin = {0}",kelvin);
+             Console.WriteLine("Celcius til Réaumur = {0}",reaumur);
 
 
             Console.ReadKey();
