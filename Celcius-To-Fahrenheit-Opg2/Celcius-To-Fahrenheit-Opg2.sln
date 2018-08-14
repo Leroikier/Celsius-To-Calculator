@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celcius-To-Fahrenheit-Opg2", "Celcius-To-Fahrenheit-Opg2\Celcius-To-Fahrenheit-Opg2.csproj", "{4CCA988F-42A6-480B-A8F3-6E4FB6B43E2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCA988F-42A6-480B-A8F3-6E4FB6B43E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCA988F-42A6-480B-A8F3-6E4FB6B43E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCA988F-42A6-480B-A8F3-6E4FB6B43E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCA988F-42A6-480B-A8F3-6E4FB6B43E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9849849-D51C-4D32-99D2-1E695FA3DAD0}
+	EndGlobalSection
+EndGlobal
